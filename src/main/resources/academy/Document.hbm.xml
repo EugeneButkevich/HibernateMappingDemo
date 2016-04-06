@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Configuration 
+	DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd"> -->
+<!DOCTYPE hibernate-mapping PUBLIC 
+	"-//Hibernate/Hibernate Mapping DTD//EN"
+	"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="academy.pojos"
+	auto-import="false" catalog="person_db">
+	<class name="Document" table="document">
+		<id name="id" type="int" column="id">
+			<!-- <generator class="increment" /> -->
+			<generator class="assigned"></generator>
+		</id>
+
+		<property name="title" column="title" type="string" />
+		<set name="persons" table="person_document" lazy="false" cascade="all">
+			<key column="document_id"/>
+			<many-to-many column="person_id" class="Person" />
+		</set>
+	</class>
+</hibernate-mapping>

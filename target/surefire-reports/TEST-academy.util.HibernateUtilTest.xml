@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="academy.util.HibernateUtilTest"
+	time="3.956" errors="0" skipped="0">
+	<properties>
+		<property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+		<property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_66\bin" />
+		<property name="java.vm.version" value="25.66-b18" />
+		<property name="user.country.format" value="BY" />
+		<property name="java.vm.vendor" value="Oracle Corporation" />
+		<property name="maven.multiModuleProjectDirectory" value="D:\javaEE\managePerson" />
+		<property name="java.vendor.url" value="http://java.oracle.com/" />
+		<property name="path.separator" value=";" />
+		<property name="guice.disable.misplaced.annotation.check"
+			value="true" />
+		<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+		<property name="file.encoding.pkg" value="sun.io" />
+		<property name="user.script" value="" />
+		<property name="user.country" value="RU" />
+		<property name="sun.java.launcher" value="SUN_STANDARD" />
+		<property name="sun.os.patch.level" value="Service Pack 1" />
+		<property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+		<property name="user.dir" value="D:\javaEE\managePerson" />
+		<property name="java.runtime.version" value="1.8.0_66-b18" />
+		<property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+		<property name="java.endorsed.dirs"
+			value="C:\Program Files\Java\jre1.8.0_66\lib\endorsed" />
+		<property name="os.arch" value="amd64" />
+		<property name="java.io.tmpdir" value="C:\Users\Evgen\AppData\Local\Temp\" />
+		<property name="line.separator" value="
+" />
+		<property name="java.vm.specification.vendor" value="Oracle Corporation" />
+		<property name="user.variant" value="" />
+		<property name="os.name" value="Windows 7" />
+		<property name="classworlds.conf"
+			value="D:\javaEE\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf1919051460835812144.tmp" />
+		<property name="sun.jnu.encoding" value="Cp1251" />
+		<property name="java.library.path"
+			value="C:\Program Files\Java\jre1.8.0_66\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_66/bin/server;C:/Program Files/Java/jre1.8.0_66/bin;C:/Program Files/Java/jre1.8.0_66/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\AMD\ATI.ACE\Core-Static;C:\Program Files\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Program Files\maven\\bin;;c:\Program Files\Java\jdk1.8.0_65\bin; c:\platform-tools\;;D:\eclipseMars;;." />
+		<property name="java.specification.name" value="Java Platform API Specification" />
+		<property name="java.class.version" value="52.0" />
+		<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+		<property name="os.version" value="6.1" />
+		<property name="user.home" value="C:\Users\Evgen" />
+		<property name="user.timezone" value="Europe/Minsk" />
+		<property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+		<property name="java.specification.version" value="1.8" />
+		<property name="file.encoding" value="UTF-8" />
+		<property name="user.name" value="Evgen" />
+		<property name="java.class.path"
+			value="/D:/eclipseMars/plugins/org.eclipse.m2e.maven.runtime_1.6.2.20150902-0001/jars/plexus-classworlds-2.5.2.jar" />
+		<property name="java.vm.specification.version" value="1.8" />
+		<property name="sun.arch.data.model" value="64" />
+		<property name="java.home" value="C:\Program Files\Java\jre1.8.0_66" />
+		<property name="sun.java.command"
+			value="org.codehaus.plexus.classworlds.launcher.Launcher -B test" />
+		<property name="java.specification.vendor" value="Oracle Corporation" />
+		<property name="user.language" value="ru" />
+		<property name="user.language.format" value="be" />
+		<property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+		<property name="java.vm.info" value="mixed mode" />
+		<property name="java.version" value="1.8.0_66" />
+		<property name="java.ext.dirs"
+			value="C:\Program Files\Java\jre1.8.0_66\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+		<property name="sun.boot.class.path"
+			value="C:\Program Files\Java\jre1.8.0_66\lib\resources.jar;C:\Program Files\Java\jre1.8.0_66\lib\rt.jar;C:\Program Files\Java\jre1.8.0_66\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_66\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_66\lib\jce.jar;C:\Program Files\Java\jre1.8.0_66\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_66\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_66\classes" />
+		<property name="java.vendor" value="Oracle Corporation" />
+		<property name="maven.home" value="D:\javaEE\managePerson\EMBEDDED" />
+		<property name="file.separator" value="\" />
+		<property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+		<property name="sun.cpu.endian" value="little" />
+		<property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+		<property name="sun.desktop" value="windows" />
+		<property name="sun.cpu.isalist" value="amd64" />
+	</properties>
+	<testcase classname="academy.util.HibernateUtilTest"
+		name="academy.util.HibernateUtilTest.testCreate" time="3.956">
+		<failure message="org/junit/Assert" type="java.lang.NoClassDefFoundError">java.lang.NoClassDefFoundError:
+			org/junit/Assert
+			at academy.util.HibernateUtilTest.testCreate(HibernateUtilTest.java:23)
+			Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+			at java.net.URLClassLoader.findClass(Unknown Source)
+			at java.lang.ClassLoader.loadClass(Unknown Source)
+			at sun.misc.Launcher$AppClassLoader.loadClass(Unknown Source)
+			at java.lang.ClassLoader.loadClass(Unknown Source)
+			... 19 more
+		</failure>
+		<system-out>������ ����
+			������� ����
+			����� � ����� ���
+			����� ������
+			����� � ����
+			Hibernate: select max(F_ID) from PERSON
+			Hibernate: insert into PERSON (F_NAME, F_SURNAME, F_AGE, F_ID) values (?, ?, ?,
+			?)
+			�������� ������. id=6
+		</system-out>
+		<system-err>2016-03-11 14:06:55 INFO org.hibernate.Version:37 -
+			HHH000412: Hibernate Core {5.1.0.Final}
+			2016-03-11 14:06:55 INFO org.hibernate.cfg.Environment:213 - HHH000206:
+			hibernate.properties not found
+			2016-03-11 14:06:55 INFO org.hibernate.cfg.Environment:317 - HHH000021:
+			Bytecode provider name : javassist
+			2016-03-11 14:06:55 INFO org.hibernate.annotations.common.Version:66 -
+			HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+			2016-03-11 14:06:56 INFO
+			org.hibernate.engine.jdbc.connections.internal.ConnectionProviderInitiator:187
+			- HHH000130: Instantiating explicit connection provider:
+			org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider
+			2016-03-11 14:06:56 INFO
+			org.hibernate.c3p0.internal.C3P0ConnectionProvider:117 - HHH010002:
+			C3P0 using driver: com.mysql.jdbc.Driver at URL:
+			jdbc:mysql://localhost:3306/person_db
+			2016-03-11 14:06:56 INFO org.hibernate.c3p0.internal.C3P0ConnectionProvider:118
+			- HHH10001001: Connection properties: {user=root, password=****}
+			2016-03-11 14:06:56 INFO
+			org.hibernate.c3p0.internal.C3P0ConnectionProvider:121 - HHH10001003:
+			Autocommit mode: false
+			2016-03-11 14:06:56 INFO com.mchange.v2.log.MLog:92 - MLog clients using log4j
+			logging.
+			2016-03-11 14:06:56 INFO com.mchange.v2.c3p0.C3P0Registry:216 - Initializing
+			c3p0-0.9.2.1 [built 20-March-2013 10:47:27 +0000; debug? true; trace:
+			10]
+			2016-03-11 14:06:57 INFO org.hibernate.c3p0.internal.C3P0ConnectionProvider:201
+			- HHH10001007: JDBC isolation level: &lt;unknown&gt;
+			2016-03-11 14:06:57 INFO
+			com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource:522 -
+			Initializing c3p0 pool...
+			com.mchange.v2.c3p0.PoolBackedDataSource@1e7c76ee [
+			connectionPoolDataSource -&gt;
+			com.mchange.v2.c3p0.WrapperConnectionPoolDataSource@49cd728e [
+			acquireIncrement -&gt; 3, acquireRetryAttempts -&gt; 30,
+			acquireRetryDelay -&gt; 1000, autoCommitOnClose -&gt; false,
+			automaticTestTable -&gt; null, breakAfterAcquireFailure -&gt; false,
+			checkoutTimeout -&gt; 0, connectionCustomizerClassName -&gt; null,
+			connectionTesterClassName -&gt;
+			com.mchange.v2.c3p0.impl.DefaultConnectionTester,
+			debugUnreturnedConnectionStackTraces -&gt; false,
+			factoryClassLocation -&gt; null, forceIgnoreUnresolvedTransactions
+			-&gt; false, identityToken -&gt; 1hge1369fs4fov3d6y89l|47c81abf,
+			idleConnectionTestPeriod -&gt; 1000, initialPoolSize -&gt; 7,
+			maxAdministrativeTaskTime -&gt; 0, maxConnectionAge -&gt; 0,
+			maxIdleTime -&gt; 100, maxIdleTimeExcessConnections -&gt; 0,
+			maxPoolSize -&gt; 53, maxStatements -&gt; 50,
+			maxStatementsPerConnection -&gt; 0, minPoolSize -&gt; 7,
+			nestedDataSource -&gt;
+			com.mchange.v2.c3p0.DriverManagerDataSource@cba75609 [ description
+			-&gt; null, driverClass -&gt; null, factoryClassLocation -&gt; null,
+			identityToken -&gt; 1hge1369fs4fov3d6y89l|66ea810, jdbcUrl -&gt;
+			jdbc:mysql://localhost:3306/person_db, properties -&gt; {user=******,
+			password=******} ], preferredTestQuery -&gt; null, propertyCycle
+			-&gt; 0, statementCacheNumDeferredCloseThreads -&gt; 0,
+			testConnectionOnCheckin -&gt; false, testConnectionOnCheckout -&gt;
+			false, unreturnedConnectionTimeout -&gt; 0,
+			usesTraditionalReflectiveProxies -&gt; false; userOverrides: {} ],
+			dataSourceName -&gt; null, factoryClassLocation -&gt; null,
+			identityToken -&gt; 1hge1369fs4fov3d6y89l|51bf5add, numHelperThreads
+			-&gt; 3 ]
+			Fri Mar 11 14:06:57 MSK 2016 WARN: Establishing SSL connection without
+			server&apos;s identity verification is not recommended. According to
+			MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be
+			established by default if explicit option isn&apos;t set. For
+			compliance with existing applications not using SSL the
+			verifyServerCertificate property is set to &apos;false&apos;. You
+			need either to explicitly disable SSL by setting useSSL=false, or set
+			useSSL=true and provide truststore for server certificate
+			verification.
+			Fri Mar 11 14:06:57 MSK 2016 WARN: Establishing SSL connection without
+			server&apos;s identity verification is not recommended. According to
+			MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be
+			established by default if explicit option isn&apos;t set. For
+			compliance with existing applications not using SSL the
+			verifyServerCertificate property is set to &apos;false&apos;. You
+			need either to explicitly disable SSL by setting useSSL=false, or set
+			useSSL=true and provide truststore for server certificate
+			verification.
+			Fri Mar 11 14:06:57 MSK 2016 WARN: Establishing SSL connection without
+			server&apos;s identity verification is not recommended. According to
+			MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be
+			established by default if explicit option isn&apos;t set. For
+			compliance with existing applications not using SSL the
+			verifyServerCertificate property is set to &apos;false&apos;. You
+			need either to explicitly disable SSL by setting useSSL=false, or set
+			useSSL=true and provide truststore for server certificate
+			verification.
+			Fri Mar 11 14:06:57 MSK 2016 WARN: Establishing SSL connection without
+			server&apos;s identity verification is not recommended. According to
+			MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be
+			established by default if explicit option isn&apos;t set. For
+			compliance with existing applications not using SSL the
+			verifyServerCertificate property is set to &apos;false&apos;. You
+			need either to explicitly disable SSL by setting useSSL=false, or set
+			useSSL=true and provide truststore for server certificate
+			verification.
+			Fri Mar 11 14:06:57 MSK 2016 WARN: Establishing SSL connection without
+			server&apos;s identity verification is not recommended. According to
+			MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be
+			established by default if explicit option isn&apos;t set. For
+			compliance with existing applications not using SSL the
+			verifyServerCertificate property is set to &apos;false&apos;. You
+			need either to explicitly disable SSL by setting useSSL=false, or set
+			useSSL=true and provide truststore for server certificate
+			verification.
+			Fri Mar 11 14:06:57 MSK 2016 WARN: Establishing SSL connection without
+			server&apos;s identity verification is not recommended. According to
+			MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be
+			established by default if explicit option isn&apos;t set. For
+			compliance with existing applications not using SSL the
+			verifyServerCertificate property is set to &apos;false&apos;. You
+			need either to explicitly disable SSL by setting useSSL=false, or set
+			useSSL=true and provide truststore for server certificate
+			verification.
+			Fri Mar 11 14:06:57 MSK 2016 WARN: Establishing SSL connection without
+			server&apos;s identity verification is not recommended. According to
+			MySQL 5.5.45+, 5.6.26+ and 5.7.6+ requirements SSL connection must be
+			established by default if explicit option isn&apos;t set. For
+			compliance with existing applications not using SSL the
+			verifyServerCertificate property is set to &apos;false&apos;. You
+			need either to explicitly disable SSL by setting useSSL=false, or set
+			useSSL=true and provide truststore for server certificate
+			verification.
+			2016-03-11 14:06:57 INFO org.hibernate.dialect.Dialect:156 - HHH000400: Using
+			dialect: org.hibernate.dialect.MySQLDialect
+			2016-03-11 14:06:57 INFO
+			org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl:124 -
+			HHH000424: Disabling contextual LOB creation as createClob() method
+			threw error : java.lang.reflect.InvocationTargetException
+		</system-err>
+	</testcase>
+</testsuite>
